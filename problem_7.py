@@ -2,7 +2,7 @@
 Project 3: Problems vs Algorithms
 Problem 7. HTTP Router using a Trie
 
-In addition to a path though, we need to know which function will handle the http request. we will just use a string that we can print out to ensure we got the right handler.
+In addition to a path, we need to know which function will handle the http request. we will just use a string that we can print out to ensure we got the right handler.
 
 A Trie with a single path entry of: "/about/me" would look like:
    (root, None) -> ("about", None) -> ("me", "about me handler")
