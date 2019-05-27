@@ -14,10 +14,9 @@ the following.
 
 (3) If d is 2, swap a[m] and a[r], decrement r.
 
-Resulting array is sorted.
+Resulting array is sorted. It visits every element of the array once and does necessary swaps.
 
-Time: O(n), where n is the input size. It scans the array once and does swap as
-       needed.
+Time: O(n), where n is the input size.
 Space: O(1)
 """
 def sort_012(a):
